@@ -46,11 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Tela_Ajuste.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Tela_Ajuste.Designer.cs">
+      <DependentUpon>Tela_Ajuste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Cadastro.Designer.cs">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Delivery.Designer.cs">
+      <DependentUpon>Tela_Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Estoque.Designer.cs">
+      <DependentUpon>Tela_Estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_login.Designer.cs">
+      <DependentUpon>Tela_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Venda.Designer.cs">
+      <DependentUpon>Tela_Venda.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,8 +96,26 @@
     <Compile Include="Tela_Principal.Designer.cs">
       <DependentUpon>Tela_Principal.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Ajuste.resx">
+      <DependentUpon>Tela_Ajuste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Cadastro.resx">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Delivery.resx">
+      <DependentUpon>Tela_Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Estoque.resx">
+      <DependentUpon>Tela_Estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_login.resx">
+      <DependentUpon>Tela_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Venda.resx">
+      <DependentUpon>Tela_Venda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
