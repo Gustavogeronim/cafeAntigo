@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tela_Ajuste.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tela_Ajuste.Designer.cs">
-      <DependentUpon>Tela_Ajuste.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tela_Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,9 +90,6 @@
     <Compile Include="Tela_Principal.Designer.cs">
       <DependentUpon>Tela_Principal.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Tela_Ajuste.resx">
-      <DependentUpon>Tela_Ajuste.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Tela_Cadastro.resx">
       <DependentUpon>Tela_Cadastro.cs</DependentUpon>
     </EmbeddedResource>
