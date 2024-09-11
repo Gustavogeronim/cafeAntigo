@@ -49,12 +49,6 @@ namespace café
             this.Visible = true;
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Tela_Ajuste ajuste = new Tela_Ajuste();
-            this.Visible = false;
-            ajuste.ShowDialog();
-            this.Visible = true;
-        }
+ 
     }
 }

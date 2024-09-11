@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Venda));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listView2 = new System.Windows.Forms.ListView();
@@ -62,6 +62,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(341, 173);
             this.panel1.TabIndex = 5;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Grande",
+            "Médio",
+            "Pequeno"});
+            this.comboBox1.Location = new System.Drawing.Point(103, 84);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 21);
+            this.comboBox1.TabIndex = 7;
             // 
             // btn_cadastrar
             // 
@@ -132,18 +144,6 @@
             this.columnHeader1.Text = "Cód. Produto";
             this.columnHeader1.Width = 83;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Grande",
-            "Médio",
-            "Pequeno"});
-            this.comboBox1.Location = new System.Drawing.Point(103, 84);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 7;
-            // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Produto";
@@ -175,7 +175,7 @@
             // columnHeader5
             // 
             this.columnHeader5.Text = "Valor";
-            this.columnHeader5.Width = 168;
+            this.columnHeader5.Width = 169;
             // 
             // columnHeader6
             // 
